@@ -4,6 +4,6 @@
   tasks:
     - name: ansible create directory example
       file:
-        path: /tmp/devops_directory
+        path: /tmp/test
         state: directory
         mode: "u=rw,g=wx,o=rwx"
